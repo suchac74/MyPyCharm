@@ -4,3 +4,4 @@ def my_func():
    print("spam")
 
 my_func()
+
