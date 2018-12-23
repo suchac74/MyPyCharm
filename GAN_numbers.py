@@ -1,7 +1,7 @@
 from numpy import exp, array, random, dot
 
 class neural_network:
-    def _init_(self):
+    def __init__(self):
         random.seed(1)
         # We model a single neuron, with 3 inputs and 1 output and assign random weight.
         self.weights = 2 * random.random((2, 1)) - 1
@@ -28,4 +28,4 @@ outputs = array([[10, 4, 14, 30]]).T
 neural_network.train(inputs, outputs, 10000)
 
 # Ask the neural network the output
-print(neural_network.think(array([15, 2])))
+print(neural_network.think(array([23, 2])))
