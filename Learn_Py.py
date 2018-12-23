@@ -1,7 +1,8 @@
-def my_func():
-   print("spam")
-   print("spam")
-   print("spam")
+def Average(lst):
+    return sum(lst) / len(lst)
 
-my_func()
 
+lst = [15, 9, 55, 41, 35, 20, 62, 49]
+average = Average(lst)
+
+print("Average of the list =", round(average, 2))
