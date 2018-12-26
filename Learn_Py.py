@@ -1,8 +1,5 @@
-def Average(lst):
-    return sum(lst) / len(lst)
+import random
 
-
-lst = [15, 9, 55, 41, 35, 20, 62, 49]
-average = Average(lst)
-
-print("Average of the list =", round(average, 2))
+for i in range(5):
+   value = random.randint(1, 10)
+   print(value)
